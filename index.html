@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homestead</title>
+
+    <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
+
 <body>
-    
+
+    <header>
+        <div class="container">
+            <ul>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    (+000) 123 456
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="navbar__brand">
+                <a href="">
+                    <i class="fa fa-home"></i>
+                    <h1>HOMESTEAD</h1>
+                    <div>The Real Estate</div>
+                </a>
+            </div>
+            <div class="navbar__menu">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">SHORT CODES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="navbar__social">
+                <ul>
+                    <li class="navbar__social__icon"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="navbar__social__icon"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li class="navbar__social__icon"><a href=""><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="carousel swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <img src="./img/banner.jpg" alt="">
+            </li>
+            <li class="swiper-slide">
+                <img src="./img/banner-1.jpg" alt="">
+            </li>
+            <li class="swiper-slide">
+                <img src="./img/banner-2.jpg" alt="">
+            </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="text__overlay">
+            <h1>Residential and commercial building, remodeling & renovations experience</h1>
+            <div class="social__list">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                    <li><a href=""><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about"></section>
+
+    <section class="team"></section>
+
+    <section class="feedback"></section>
+
+    <section class="overview"></section>
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
 </body>
+
 </html>

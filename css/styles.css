@@ -1,0 +1,177 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* HEADER section */
+
+header {
+    background: #b06010;
+    padding: 0.6rem;
+    color: white;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header i {
+    margin-right: 1rem;
+}
+
+header ul li:nth-child(2) {
+    margin-left: 2rem;
+}
+
+/* NAVBAR section */
+
+nav {
+    padding: 5px 0;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:active, nav a:visited {
+    color: black;
+}
+
+.fa-home {
+    font-size: 2rem;
+    color: #204b87;
+}
+
+.navbar__brand h1 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.navbar__brand div {
+    letter-spacing: 6px;
+    padding: 0 25px;
+    font-size: 12px;
+    color: #b06010;
+}
+
+.navbar__menu li {
+    padding: 0 2rem;
+}
+
+.navbar__menu a {
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar__menu a:hover {
+    color: #b06010;
+}
+
+.navbar__social__icon {
+    padding: 0 5px;
+}
+
+.navbar__social__icon i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.navbar__social .fa-facebook-f {
+    background: #204b87;
+}
+
+.navbar__social .fa-twitter {
+    background: #1da1f2;
+}
+
+.navbar__social .fa-dribbble {
+    background: #ea4c89;
+}
+
+/* CAROUSEL section */
+
+.swiper-container {
+    position: relative;
+}
+
+.swiper-wrapper li {
+    height: 600px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: darkgrey;
+}
+
+.swiper-pagination {
+    bottom: 10% !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: darkgrey;
+}
+
+.carousel .text__overlay {
+    z-index: 10;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.carousel .text__overlay h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 300;
+    line-height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.carousel .text__overlay li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+.carousel i {
+    color: #b06010;
+}
+
