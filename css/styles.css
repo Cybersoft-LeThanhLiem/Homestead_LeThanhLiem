@@ -128,23 +128,24 @@ nav .fa-home {
 
 /* CAROUSEL section */
 
-.swiper-container {
+.carousel .swiper-container {
     position: relative;
 }
 
-.swiper-wrapper li {
+.carousel .swiper-wrapper li {
     height: 600px;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.carousel .swiper-button-next,
+.carousel .swiper-button-prev {
     color: darkgrey;
 }
 
-.swiper-pagination {
+.carousel .swiper-pagination {
     bottom: 10% !important;
 }
 
-.swiper-pagination-bullet-active {
+.carousel .swiper-pagination-bullet-active {
     background-color: darkgrey;
 }
 
@@ -336,4 +337,97 @@ nav .fa-home {
     color: #b06010;
     transition: 0.5s ease-in;
 }
+
+/* FEEDBACK section */
+
+.feedback {
+    background-image: url('../img/banner-2.jpg');
+    height: 500px;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.feedback h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+    padding: 2rem 0;
+}
+
+.feedback .p1 {
+    color: #b06010;
+    letter-spacing: 6px;
+    margin-bottom: 1em;
+}
+
+.feedback li {
+    list-style-type: none;
+}
+
+.feedback__info {
+    padding: 4rem 0;
+}
+
+.feedback__info .swiper-slide {
+    color: white;
+    text-align: left;
+}
+
+.feedback__info .swiper-pagination-bullet {
+    background-color: #ff9800;
+    width: 12px;
+    height: 12px;
+}
+
+.feedback__text {
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.feedback__text p {
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.feedback__text::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 100%;
+    left: 27%;
+}
+
+.customer {
+    width: 65%;
+    margin: 2rem auto 0;
+    display: flex;
+}
+
+.customer__img {
+    width: 28%;
+}
+
+.customer__img img {
+    width: 100%;
+}
+
+.customer__info {
+    padding-left: 1rem;
+}
+
+.customer__info p {
+    color: #cecece;
+}
+
 
