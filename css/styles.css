@@ -430,4 +430,51 @@ nav .fa-home {
     color: #cecece;
 }
 
+/* OVERVIEW section */
 
+.overview {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.overview h1 {
+    font-size: 3rem;
+    font-weight: 650;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 2rem 0;
+}
+
+.overview .p1 {
+    color: #b06010;
+    letter-spacing: 6px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.overview__stats {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0;
+    margin-top: 4rem;
+}
+
+.overview__stat {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.overview__stat i {
+    font-size: 3rem;
+    margin-right: 3rem;
+    color: #b06010;
+    padding-top: 10px;
+}
+
+.overview__stat h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
