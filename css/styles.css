@@ -112,25 +112,28 @@ nav .fa-home {
     text-align: center;
     line-height: 30px;
     color: white;
+    transition: 1s;
 }
 
 .navbar__social .fa-facebook-f {
     background: #204b87;
+    border: 1px solid #204b87;
 }
 
 .navbar__social .fa-twitter {
     background: #1da1f2;
+    border: 1px solid #1da1f2;
 }
 
 .navbar__social .fa-dribbble {
     background: #ea4c89;
+    border: 1px solid #ea4c89;
 }
 
 .navbar__social a:hover i {
     color: #b06010;
     border: 1px solid #b06010;
     background: none;
-    transition: 1s;
 }
 
 /* CAROUSEL section */
@@ -565,25 +568,28 @@ footer h2 {
     text-align: center;
     color: white;
     font-size: 0.8rem;
+    transition: 1s;
 }
 
 .footer__col .social__icons a:hover i {
     color: #b06010;
     border: 1px solid #b06010;
     background: none;
-    transition: 1s;
 }
 
 .footer__col .fa-facebook-f {
     background-color: #3b5998;
+    border: 1px solid #3b5998;
 }
 
 .footer__col .fa-twitter {
     background-color: #1da1f2;
+    border: 1px solid #1da1f2;
 }
 
 .footer__col .fa-dribbble {
     background-color: #ea4c89;
+    border: 1px solid #ea4c89;
 }
 
 .latest__news i {
