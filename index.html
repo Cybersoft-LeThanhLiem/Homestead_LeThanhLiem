@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homestead</title>
 
-    <!-- Lato Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
 
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -366,23 +363,24 @@
                         <ul>
                             <li>
                                 <i class="fa fa-long-arrow-alt-right"></i>
-                                <a href="#">Donec purus neque, vulputate id est id</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Donec purus neque,
+                                    vulputate id est id</a>
                             </li>
                             <li>
                                 <i class="fa fa-long-arrow-alt-right"></i>
-                                <a href="#">Nullam fringilla sed quam vitae</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Nullam fringilla sed quam vitae</a>
                             </li>
                             <li>
                                 <i class="fa fa-long-arrow-alt-right"></i>
-                                <a href="#">Cras libero arcu, accumsan ac</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Cras libero arcu, accumsan ac</a>
                             </li>
                             <li>
                                 <i class="fa fa-long-arrow-alt-right"></i>
-                                <a href="#">Aenean porttitor accumsan</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Aenean porttitor accumsan</a>
                             </li>
                             <li>
                                 <i class="fa fa-long-arrow-alt-right"></i>
-                                <a href="#">Nullam sed turpis gravida</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Nullam sed turpis gravida</a>
                             </li>
                         </ul>
                     </div>
@@ -398,16 +396,45 @@
             </div>
         </div>
 
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"
+                            aria-hidden="true"></button>
+                        <h5 class="modal-title" id="exampleModalLabel">Homestead</h5>
+                    </div>
+                    <div class="modal-footer">
+                        <img src="./img/g4.jpg" class="img-responsive" alt="Boat house">
+                        <h5>Fishing Season Now Open</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae
+                            porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed
+                            bibendum ex in dignissim bibendum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="footer__copyright">
             © 2018 Homestead. All rights reserved | Design by <span><a href="">W3layouts</a></span>
         </div>
     </footer>
 
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Count Up JS -->
     <script src="./js/jquery.countup.js"></script>
+
     <script src="./js/scripts.js"></script>
 
 </body>

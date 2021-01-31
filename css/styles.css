@@ -675,3 +675,40 @@ footer h2 {
     color: white;
     transition: 0.5s ease-in;
 }
+
+/* MODAL section */
+
+.modal-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 650;
+    color: #204b87;
+    letter-spacing: 1px;
+}
+
+.close {
+    position: absolute;
+    right: 3%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.modal-footer h5 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #b06010;
+    letter-spacing: 1px;
+    margin: 2rem auto;
+}
+
+.modal-footer p {
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
