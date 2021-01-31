@@ -678,6 +678,10 @@ footer h2 {
 
 /* MODAL section */
 
+.modal-content {
+    padding: 0.5rem 0;
+}
+
 .modal-title {
     font-size: 30px;
     text-align: center;
