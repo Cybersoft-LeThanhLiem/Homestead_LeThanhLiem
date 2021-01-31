@@ -494,6 +494,7 @@ nav .fa-home {
 
 .overview__stat div:nth-child(2) {
     text-align: left;
+    width: 34%;
 }
 
 /* FOOTER section */
