@@ -475,6 +475,8 @@ nav .fa-home {
     color: white;
     display: flex;
     align-items: center;
+    width: 30%;
+    justify-content: center;
 }
 
 .overview__stat i {
