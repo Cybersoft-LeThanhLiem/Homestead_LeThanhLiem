@@ -716,3 +716,13 @@ footer h2 {
     letter-spacing: 1px;
     line-height: 2em;
 }
+
+/* Back To Top button */
+
+#backToTop {
+    display: block;
+    position: fixed;
+    bottom: 2.5%;
+    right: 2%;
+    z-index: 999;
+}
