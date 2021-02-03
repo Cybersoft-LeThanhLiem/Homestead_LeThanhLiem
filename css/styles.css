@@ -719,10 +719,19 @@ footer h2 {
 
 /* Back To Top button */
 
-#backToTop {
+.backToTop {
     display: block;
     position: fixed;
     bottom: 2.5%;
     right: 2%;
     z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
 }
